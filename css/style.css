@@ -1,33 +1,32 @@
-
 body {
 	font-family: 'Lato', sans-serif;
-	color: #bbb;
-	font-weight: 300;
+	color: #000;
+	background-color: #FFF
 }
 
-hr.style1 {
-	border-top: 3.5px solid #dca;
+nav ul{
+	overflow: auto;
+	list-style: none; /* this takes off the bullet points of li's in a ul */
+	background-color: white;
+
+}
+nav li{
+	padding:10px;
+	float: left;
+}
+nav a {
+	color: #000;
+	text-decoration: none;
+	font-size: 25px;
+	transition: .5s;
+}
+nav a:hover {
+	color: #f00;
 }
 
-.text-muted {
-	color: #bbb;
+.main {
+	padding-right:300px;
 }
 
-.text-thin {
-	font-weight: 100;
-}
 
-.center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
 
-.title-super {
-	font-size: 60px;
-}
-
-.title-logo {
-	margin-top: 20px;
-}
